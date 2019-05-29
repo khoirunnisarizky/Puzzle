@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4ECC34BE226D376700FF97F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC34BD226D376700FF97F8 /* AppDelegate.swift */; };
 		4ECC34C0226D376700FF97F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC34BF226D376700FF97F8 /* ViewController.swift */; };
-		4ECC34C3226D376700FF97F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC34C1226D376700FF97F8 /* Main.storyboard */; };
 		4ECC34C6226D376700FF97F8 /* ZatuPhotography.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC34C4226D376700FF97F8 /* ZatuPhotography.xcdatamodeld */; };
 		4ECC34C8226D376900FF97F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC34C7226D376900FF97F8 /* Assets.xcassets */; };
 		4ECC34CB226D376900FF97F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC34C9226D376900FF97F8 /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		4ECC34BA226D376700FF97F8 /* ZatuPhotography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZatuPhotography.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECC34BD226D376700FF97F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ECC34BF226D376700FF97F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4ECC34C2226D376700FF97F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4ECC34C5226D376700FF97F8 /* ZatuPhotography.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZatuPhotography.xcdatamodel; sourceTree = "<group>"; };
 		4ECC34C7226D376900FF97F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ECC34CA226D376900FF97F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 			children = (
 				4ECC34BD226D376700FF97F8 /* AppDelegate.swift */,
 				4ECC34BF226D376700FF97F8 /* ViewController.swift */,
-				4ECC34C1226D376700FF97F8 /* Main.storyboard */,
 				4ECC34C7226D376900FF97F8 /* Assets.xcassets */,
 				4ECC34C9226D376900FF97F8 /* LaunchScreen.storyboard */,
 				4ECC34CC226D376900FF97F8 /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				4ECC34CB226D376900FF97F8 /* LaunchScreen.storyboard in Resources */,
 				4ECC34C8226D376900FF97F8 /* Assets.xcassets in Resources */,
-				4ECC34C3226D376700FF97F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4ECC34C1226D376700FF97F8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4ECC34C2226D376700FF97F8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4ECC34C9226D376900FF97F8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +275,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSB449F8V6;
 				INFOPLIST_FILE = ZatuPhotography/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,7 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.khoirunnisarizky.ZatuPhotography;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JSB449F8V6;
 				INFOPLIST_FILE = ZatuPhotography/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.khoirunnisarizky.ZatuPhotography;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
