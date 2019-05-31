@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E4162E322A0C96D0028302C /* customButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4162E222A0C96D0028302C /* customButton.swift */; };
+		4E4162E522A0CAB80028302C /* customLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4162E422A0CAB80028302C /* customLabel.swift */; };
+		4E4162E722A0CB880028302C /* customButtonSwap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4162E622A0CB880028302C /* customButtonSwap.swift */; };
+		4E4162ED22A0D78D0028302C /* ImageViewCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4162EC22A0D78D0028302C /* ImageViewCVCell.swift */; };
 		4ECC34BE226D376700FF97F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC34BD226D376700FF97F8 /* AppDelegate.swift */; };
 		4ECC34C0226D376700FF97F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC34BF226D376700FF97F8 /* ViewController.swift */; };
 		4ECC34C6226D376700FF97F8 /* ZatuPhotography.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC34C4226D376700FF97F8 /* ZatuPhotography.xcdatamodeld */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E4162E222A0C96D0028302C /* customButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButton.swift; sourceTree = "<group>"; };
+		4E4162E422A0CAB80028302C /* customLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customLabel.swift; sourceTree = "<group>"; };
+		4E4162E622A0CB880028302C /* customButtonSwap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButtonSwap.swift; sourceTree = "<group>"; };
+		4E4162EC22A0D78D0028302C /* ImageViewCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCVCell.swift; sourceTree = "<group>"; };
 		4ECC34BA226D376700FF97F8 /* ZatuPhotography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZatuPhotography.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECC34BD226D376700FF97F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ECC34BF226D376700FF97F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +64,10 @@
 			children = (
 				4ECC34BD226D376700FF97F8 /* AppDelegate.swift */,
 				4ECC34BF226D376700FF97F8 /* ViewController.swift */,
+				4E4162EC22A0D78D0028302C /* ImageViewCVCell.swift */,
+				4E4162E222A0C96D0028302C /* customButton.swift */,
+				4E4162E422A0CAB80028302C /* customLabel.swift */,
+				4E4162E622A0CB880028302C /* customButtonSwap.swift */,
 				4ECC34C7226D376900FF97F8 /* Assets.xcassets */,
 				4ECC34C9226D376900FF97F8 /* LaunchScreen.storyboard */,
 				4ECC34CC226D376900FF97F8 /* Info.plist */,
@@ -134,9 +146,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E4162E522A0CAB80028302C /* customLabel.swift in Sources */,
+				4E4162E322A0C96D0028302C /* customButton.swift in Sources */,
 				4ECC34C6226D376700FF97F8 /* ZatuPhotography.xcdatamodeld in Sources */,
+				4E4162E722A0CB880028302C /* customButtonSwap.swift in Sources */,
 				4ECC34C0226D376700FF97F8 /* ViewController.swift in Sources */,
 				4ECC34BE226D376700FF97F8 /* AppDelegate.swift in Sources */,
+				4E4162ED22A0D78D0028302C /* ImageViewCVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

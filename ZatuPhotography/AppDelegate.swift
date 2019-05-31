@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window  = UIWindow(frame: UIScreen.main.bounds)
         if let window = self.window {
-            window.backgroundColor = #colorLiteral(red: 0.9995340705, green: 0.988355577, blue: 0.4726552367, alpha: 1)
+            window.backgroundColor = UIColor.white
             
             let nav = UINavigationController()
             let mainView = ViewController()
